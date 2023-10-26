@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+ /* TODO */
+ outline: solid 1px rgba(251,120,55,1);
+}
+
+body {
+  /* TODO */
+  height: 100dvh;
+  background: linear-gradient(270deg, rgb(241, 82, 3) 0%, rgba(255,202,0,1) 52%);
+}
+
+input {
+ /* TODO */
+
+ padding: 1rem;
+}
+
+.search-container {
+ /* TODO */
+ position: relative;
+overflow: hidden;
+ height: 700px;
+
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+  display: block;
+  background-color: rgb(245, 165, 60);
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+   overflow-y: hidden;
+   max-height: 100%;
+}
+
+ul {
+  /* TODO */
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+ul.has-suggestions {
+  /* TODO */
+  display: block;
+}
+ul li {
+  /* TODO */
+  list-style: none;
+  padding:1rem;  
+  cursor: pointer;
+  
+}
+ul li:hover {
+  /* TODO */
+  background-color: rgb(241, 82, 3);
+}
+
+input {
+   /* TODO */
+   outline: solid 1px rgba(251,120,55,1);
+   
+  }
